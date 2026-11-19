@@ -2,7 +2,7 @@
 
 namespace Lab04
 {
-    internal abstract class BaseItem : IEquatable<BaseItem>
+    internal abstract class BaseItem
     {
         // генератор инвентарных номеров
         private static int _nextInventoryNumber = 1000;
